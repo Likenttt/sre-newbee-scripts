@@ -4,7 +4,7 @@
 
 ### Java、Node、Python 一把梭哈，一些基础包
 
-```
+```bash
 sudo yum -y install git maven java-11-openjdk python3 npm
 
 ```
