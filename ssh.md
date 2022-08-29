@@ -16,3 +16,8 @@ systemctl restart sshd.service
 #4. 设置为开机启动可使用:
 systemctl enable sshd.service
 ```
+
+### 关于权限
+
+> ssh rejects key-based logins if permissions allow other people to tamper with your authorized_keys file. You need to check /, /home, /home/yourname, /home/yourname/.ssh and /home/yourname/.ssh/authorized_keys. All of those must not be group or world writeable.
+> .ssh 和 authorized_keys 的权限应该是 755，这样可以避免其他软件篡改

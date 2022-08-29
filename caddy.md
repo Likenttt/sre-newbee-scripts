@@ -5,6 +5,8 @@
 ### 安装
 
 ```
+sudo yum install -y yum-plugin-copr
+sudo yum copr enable @caddy/caddy
 sudo yum install -y caddy
 
 ```
@@ -21,6 +23,9 @@ https://li2niu.com {
 
 ```
 caddy start --config /root/caddyfile --adapter caddyfile
+
+#非root用户在bind 443端口可能存在权限问题
+#Solution: https://serverfault.com/questions/807883/caddy-listen-tcp-443-bind-permission-denied
 ```
 
 ### caddy 缺点是什么
