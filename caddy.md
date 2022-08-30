@@ -28,6 +28,11 @@ caddy start --config /root/caddyfile --adapter caddyfile
 #Solution: https://serverfault.com/questions/807883/caddy-listen-tcp-443-bind-permission-denied
 ```
 
+### ssl
+
+自动 https 的要求需要关注下
+https://caddyserver.com/docs/automatic-https
+
 ### caddy 缺点是什么
 
 性能比 nginx 稍稍差一些，配置文件不像 nginx 那样可以随意搜寻借鉴。

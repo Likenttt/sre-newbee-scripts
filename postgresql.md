@@ -14,3 +14,4 @@ sudo systemctl start postgresql-14
 ### 修改默认密码
 
 https://chartio.com/resources/tutorials/how-to-set-the-default-user-password-in-postgresql/
+https://computingforgeeks.com/how-to-install-postgresql-14-centos-rhel-7/

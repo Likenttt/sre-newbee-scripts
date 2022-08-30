@@ -2,13 +2,6 @@
 
 > 机器一般从裸机开始。一直在用 centos7.6。
 
-### Java、Node、Python 一把梭哈，一些基础包
-
-```bash
-sudo yum -y install git maven java-11-openjdk python3 npm
-
-```
-
 ### 🇨🇳 中国大陆一键安装 oh-my-zsh
 
 ```bash
