@@ -46,6 +46,9 @@ make altinstall #防止替换默认的/usr/bin/python.
 
 ```
 rm /usr/src/Python-3.7.11.tgz
+# 替换python3命令，如果原来没有用-s选项即可
+sudo ln -snf /usr/local/bin/pip3.7 /usr/bin/pip3
+sudo ln -snf /usr/local/bin/python3.7 /usr/bin/python3
 ```
 
 #### 善刀而藏
